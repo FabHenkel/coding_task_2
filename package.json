@@ -1,0 +1,21 @@
+{
+  "name": "coding_task_2",
+  "version": "1.0.0",
+  "description": "Solution for coding task #2.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --respawn -- main.ts",
+    "start": "ts-node main.ts"
+  },
+  "author": "Fabian Henkel <fabhenkel@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "typescript": "^4.0.3",
+    "ts-node": "^9.0.0"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.63"
+  }
+}
